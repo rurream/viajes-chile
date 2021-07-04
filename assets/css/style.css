@@ -1,3 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    padding-top: 3.4rem;
+    /* margin-top: 8rem; */
+}
 .brand{
     height: 1.5rem;
     width: 1.5rem;
@@ -18,4 +25,31 @@ hr{
 #quienesSomos p{
     font-size: 0.8rem;
     text-align: justify;
+}
+#destacados{
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+.card{
+    height: 20rem;
+}
+.card img{
+    height: 7.5rem;
+}
+.card-text{
+    font-size: 0.8rem;
+}
+#contacto{
+    background-color: black;
+    color: white;
+}
+footer{
+    color: white;
+    vertical-align: middle;
+}
+.redes{
+    
+    vertical-align: middle;
 }
