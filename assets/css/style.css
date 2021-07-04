@@ -3,7 +3,7 @@ html {
   }
 body{
     padding-top: 3.4rem;
-    /* margin-top: 8rem; */
+    font-family: 'Raleway', sans-serif;
 }
 .brand{
     height: 1.5rem;
@@ -51,4 +51,11 @@ footer{
 .redes{
     
     vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+i{
+    color: white; 
 }
