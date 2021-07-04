@@ -1,0 +1,21 @@
+.brand{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.carousel-item img{
+    height: 70vh;
+    width: 100vw;
+}
+#quienesSomos{
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+hr{
+    height: 2px!important;
+}
+#quienesSomos p{
+    font-size: 0.8rem;
+    text-align: justify;
+}
