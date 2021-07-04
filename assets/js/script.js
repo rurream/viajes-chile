@@ -5,12 +5,6 @@ $(document).ready(function() {
    });
 });
 
-// $(".navbar-nav .nav-item a").on("click", function (e) {
-//     e.preventDefault();
-//     const href = $(this).attr("href");
-//     $("html, body").animate({ scrollTop: $(href).offset().top }, 1800);
-//   });
-
 (function () {
     var qs,
       js,
