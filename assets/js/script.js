@@ -1,16 +1,14 @@
 $(document).ready(function() {
+
+    // Destacar link de navegación activos
     $('.nav-item .nav-link').on('click', function (e) {
         $('.nav-link.active').removeClass("active");
         $(this).addClass('active');
    });
 });
 
-// $(".navbar-nav .nav-item a").on("click", function (e) {
-//     e.preventDefault();
-//     const href = $(this).attr("href");
-//     $("html, body").animate({ scrollTop: $(href).offset().top }, 1800);
-//   });
 
+// TypeForm
 (function () {
     var qs,
       js,
