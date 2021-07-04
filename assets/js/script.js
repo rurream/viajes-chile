@@ -1,10 +1,14 @@
 $(document).ready(function() {
+
+    // Destacar link de navegación activos
     $('.nav-item .nav-link').on('click', function (e) {
         $('.nav-link.active').removeClass("active");
         $(this).addClass('active');
    });
 });
 
+
+// TypeForm
 (function () {
     var qs,
       js,
